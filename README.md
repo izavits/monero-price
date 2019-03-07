@@ -15,7 +15,7 @@ pip install requests
 ``` 
 
 ## Run
-You will need to create and account to [IFTTT.com](https://ifttt.com) and then create a new applet.
+You will need to create an account to [IFTTT.com](https://ifttt.com) and then create a new applet.
 
 To create a new applet follow these steps:
 
@@ -30,7 +30,7 @@ To create a new applet follow these steps:
 
 Then you need to download the IFTTT app to your smartphone and allow push notifications.
 
-Now edit the `config.json` file and enter the `IFTTT event name` (`xmr_price` for instance) and edit your `IFTTT api key`. You may find those info if you visit this page: [https://ifttt.com/maker_webhooks](https://ifttt.com/maker_webhooks) and click on "Documentation".
+Now edit the `config.json` file and enter the `IFTTT event name` (`xmr_price` for instance) and edit your `IFTTT api key`. You may find these info if you visit this page: [https://ifttt.com/maker_webhooks](https://ifttt.com/maker_webhooks) and click on "Documentation".
 
 Now you are ready to run the example:
 
@@ -38,7 +38,7 @@ Now you are ready to run the example:
 python xmr.py
 ```
 
-You will receive an initial notification to your smartphone with the monero price. If you keep the program running, you will be receiving a notification every time the xmp price changes by the percentage you defined in the `config.json` file.
+You will receive an initial notification to your smartphone with the Monero price at that time. If you keep the program running, you will be receiving a notification every time the xmp price changes by the percentage you defined in the `config.json` file.
 
 
 ## Support
